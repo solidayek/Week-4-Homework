@@ -9,6 +9,7 @@ import timeit
 # Due Date: 10/22/2023
 ####################################################
 
+# create a set_list function for a one-dimensional list
 def set_list1D(list):
     for i in range(len(list)):  
         list[i] = random.randint(0,500)
